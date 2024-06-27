@@ -1,6 +1,8 @@
 # WeatherPi
 
 Weather station that uploads observations to Weather Underground and AdafruitIO.
+
+Live weather data:
 https://www.wunderground.com/dashboard/pws/KOHWESTE95
 
 ![Alt text](IMG_0224.jpg)
