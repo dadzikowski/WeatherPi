@@ -3,7 +3,7 @@
 Weather station that uploads observations to Weather Underground and AdafruitIO.
 https://www.wunderground.com/dashboard/pws/KOHWESTE95
 
-![Alt text](76F7364D-0B87-414C-A46B-99EC2521DCC9_1_102_a.jpeg)
+![Alt text](IMG_0224.jpg)
 
 
 _**Collects the following weather observations**_
