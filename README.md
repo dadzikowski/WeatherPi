@@ -33,7 +33,7 @@ These prints were gathered mainly from Thingiverse (with some modifications). I 
 
 _**Python Code**_
 
-Weather data is called from a Cron script to update Weather Underground and AdafruitIO every 5 minutes (wind speed data and wind direction is updated to the local SQLite database via Cron every minute). Data observations, after a sucessful post to Weather Underground, are saved to the SQLite3 database. Database schema is very simple and is documented in the code (table create SQL).
+Weather data is called from a Cron script to update Weather Underground and AdafruitIO every 5 minutes. Data observations, after a sucessful post to Weather Underground, are saved to the SQLite3 database. Database schema is very simple and is documented in the code (table create SQL).
 
 _**Hardware**_
 1) **Controller** -- RaspberryPi Zero W (used 2 because solar radiation/air quality sensors are in a different enclosure from the rest of the weather station).
