@@ -1,5 +1,7 @@
 # WeatherPi
 
+![Alt text](76F7364D-0B87-414C-A46B-99EC2521DCC9_1_102_a.jpeg)
+
 Weather station that uploads observations to Weather Underground and AdafruitIO.
 
 _**Collects the following weather observations**_
