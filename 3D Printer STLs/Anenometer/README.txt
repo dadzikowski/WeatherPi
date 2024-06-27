@@ -1,0 +1,1 @@
+Anenometr - wind speed meter by kovalski2 on Thingiverse: https://www.thingiverse.com/thing:3397207

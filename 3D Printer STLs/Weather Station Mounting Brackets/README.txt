@@ -1,0 +1,1 @@
+Weather Station mounting brackets by keithellis on Thingiverse: https://www.thingiverse.com/thing:2086891

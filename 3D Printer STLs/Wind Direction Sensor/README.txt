@@ -1,0 +1,1 @@
+Wind vane / wind direction sensor with rotary hall sensor (Arduino) by TiborTosoki on Thingiverse: https://www.thingiverse.com/thing:4757278

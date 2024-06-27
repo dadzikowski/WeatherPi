@@ -1,0 +1,1 @@
+Tipping bucket rain gauge by hardas999 on Thingiverse: https://www.thingiverse.com/thing:4519605
