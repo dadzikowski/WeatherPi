@@ -1,10 +1,30 @@
 # WeatherPi
 
-Built my own weather station that uploads observations to Weather Underground. Currently collects the following observations:
-
+Weather station that uploads observations to Weather Underground and AdafruitIO. Currently collects the following weather observations:
+1) Wind Direction
+2) Wind Speed (mph)
+3) Wind Gust (mph)
+4) Wind Gust Direction
+5) Wind Speed Average 2 Min (mph)
+6) Wind Direction Average 2 Min
+7) Wind Gust Average 10 Min (mph)
+8) Wind Gust Direction 10 min (mph)
+9) Rain (in)
+10) Daily Rain (in)
+11) Humidity
+12) Dew Point (f)
+13) Temp (f)
+14) Relative Barometer (inHP)
+15) UV
+16) Solar Radiation
+17) Air Quality PM2.5
+18) Air Quality PM10
+    
 _**3D Printed Parts**_
-These were gathered mainly from Thingiverse. I added attribution as appropriate. For the pole mounts, I resized these to fit my printed parts (since the mounts weren't designed for these components)
-1) 
+These were gathered mainly from Thingiverse. I added attribution as appropriate. For the pole mounts, I resized these to fit my printed parts (since the mounts weren't designed for these components).
+
+_**Python Code**_
+Weather data is called from a cron script to update Weather Underground and AdafruitIO every 5 minutes (wind speed data and direction is updated to the local SQLite database via cron every minute). Data observations after a sucessful post to Weather Underground is saved the SQLite3 database. Database schema is very simple and is documented in the code (table create SQL).
 
 _**Hardware**_
 1) **Controller** -- RaspberryPi Zero W (used 2 because solar radiation/air quality sensors are in a different enclosure from the rest of the weather station).
