@@ -1,6 +1,7 @@
 # WeatherPi
 
 Weather station that uploads observations to Weather Underground and AdafruitIO.
+https://www.wunderground.com/dashboard/pws/KOHWESTE95
 
 ![Alt text](76F7364D-0B87-414C-A46B-99EC2521DCC9_1_102_a.jpeg)
 
@@ -13,7 +14,7 @@ _**Collects the following weather observations**_
 5) Wind Speed Average 2 Min (mph)
 6) Wind Direction Average 2 Min
 7) Wind Gust Average 10 Min (mph)
-8) Wind Gust Direction 10 min (mph)
+8) Wind Gust Direction 10 Min (mph)
 9) Rain (in)
 10) Daily Rain (in)
 11) Humidity
@@ -27,11 +28,11 @@ _**Collects the following weather observations**_
     
 _**3D Printed Parts**_
 
-These prints were gathered mainly from Thingiverse (with some modifications). I added attribution as appropriate. For the pole mounts, I resized these to fit my printed parts (since the mounts weren't designed for these components).
+These prints were gathered mainly from Thingiverse (with some modifications). I added attribution as appropriate. For the pole mounts, I resized these to fit my printed parts since the mounts weren't designed for these components.
 
 _**Python Code**_
 
-Weather data is called from a Cron script to update Weather Underground and AdafruitIO every 5 minutes (wind speed data and wind direction is updated to the local SQLite database via cron every minute). Data observations, after a sucessful post to Weather Underground, are saved to the SQLite3 database. Database schema is very simple and is documented in the code (table create SQL).
+Weather data is called from a Cron script to update Weather Underground and AdafruitIO every 5 minutes (wind speed data and wind direction is updated to the local SQLite database via Cron every minute). Data observations, after a sucessful post to Weather Underground, are saved to the SQLite3 database. Database schema is very simple and is documented in the code (table create SQL).
 
 _**Hardware**_
 1) **Controller** -- RaspberryPi Zero W (used 2 because solar radiation/air quality sensors are in a different enclosure from the rest of the weather station).
