@@ -15,7 +15,7 @@ _**Collects the following weather observations**_
 5) Wind Speed Average 2 Min (mph)
 6) Wind Direction Average 2 Min
 7) Wind Gust Average 10 Min (mph)
-8) Wind Gust Direction 10 Min
+8) Wind Gust Direction Average 10 Min
 9) Rain (in)
 10) Daily Rain (in)
 11) Humidity
